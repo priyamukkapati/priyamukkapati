@@ -11,11 +11,15 @@ I've started three small prototypes around creator platforms. Each one has runna
 
 | Project | What the current version does | Built with |
 | --- | --- | --- |
-| [StreamCommerce](projects/streamcommerce) | Records subscriptions and gifts, handles purchase retries, and totals creator revenue | Python, SQLite |
-| [LiveStream](projects/livestream) | Models chat rooms with message delivery, moderation, and bounded queues | Python, asyncio |
-| [CreatorPulse](projects/creatorpulse) | Ranks creators by interests and queues notification events without duplicates | Python, heapq |
+| [StreamCommerce](https://github.com/priyamukkapati/StreamCommerce) | Records subscriptions and gifts, handles purchase retries, and totals creator revenue | Python, SQLite |
+| [LiveStream](https://github.com/priyamukkapati/LiveStream) | Models chat rooms with message delivery, moderation, and bounded queues | Python, asyncio |
+| [CreatorPulse](https://github.com/priyamukkapati/CreatorPulse) | Ranks creators by interests and queues notification events without duplicates | Python, heapq |
 
 These are early local prototypes. The larger platform features are documented in each project's roadmap.
+
+## Learning repositories
+
+I also keep forks of projects covering data analysis, machine learning, Spark, Hadoop, and Docker. The original authors and licenses are preserved; these are separate from my own starter projects.
 
 ## Run the projects
 
