@@ -2,21 +2,33 @@
 
 I'm interested in backend development, real-time applications, and recommendation systems.
 
-I have a bachelor's degree in Computer Science Engineering with a specialization in Artificial Intelligence & Machine Learning, and a master's degree in Information Technology & Management.
+🎓 **Bachelor's:** Computer Science Engineering — Artificial Intelligence & Machine Learning  
+🎓 **Master's:** Information Technology & Management
 
-## Projects I'm building
+## Projects
 
-| Project | Focus |
-| --- | --- |
-| **StreamCommerce** | Creator subscriptions, gifting, and transaction workflows |
-| **LiveStream** | Live sessions, real-time chat, and creator communities |
-| **CreatorPulse** | Personalized creator recommendations and notifications |
+I've started three small prototypes around creator platforms. Each one has runnable code and a short guide.
 
-These projects are in progress. I'll share implementation details, setup instructions, and demos as the code becomes available.
+| Project | What the current version does | Built with |
+| --- | --- | --- |
+| [StreamCommerce](projects/streamcommerce) | Records subscriptions and gifts, handles purchase retries, and totals creator revenue | Python, SQLite |
+| [LiveStream](projects/livestream) | Models chat rooms with message delivery, moderation, and bounded queues | Python, asyncio |
+| [CreatorPulse](projects/creatorpulse) | Ranks creators by interests and queues notification events without duplicates | Python, heapq |
 
-## Languages and tools
+These are early local prototypes. The larger platform features are documented in each project's roadmap.
 
-Java · Python · SQL · Spring Boot · FastAPI · PostgreSQL · React · Git
+## Run the projects
+
+Requires Python 3.10 or newer. No external packages needed.
+
+```bash
+git clone https://github.com/priyamukkapati/priyamukkapati.git
+cd priyamukkapati
+python3 projects/streamcommerce/app.py
+python3 projects/livestream/app.py
+python3 projects/creatorpulse/app.py
+python3 -m unittest discover -s tests -v
+```
 
 ## Connect
 
