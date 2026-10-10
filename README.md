@@ -1,4 +1,4 @@
-# Hi, I'm Priya 👋
+# Hi, I'm Priya 
 
 I'm interested in backend development, real-time applications, and recommendation systems.
 
