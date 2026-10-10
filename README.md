@@ -22,7 +22,7 @@ I like coding, learning new things, and building projects that solve real proble
   <img src="https://skillicons.dev/icons?i=java,python,go,sql,spring,fastapi,postgres,redis,kafka,react,docker,aws,git,github,vscode&perline=5" alt="Languages and tools">
 </p>
 
-## 📌 What I'm working on
+## 📌 What I worked on
 
 - **StreamCommerce** — a creator subscription and gifting platform.
 - **LiveStream** — a real-time streaming and community platform.
