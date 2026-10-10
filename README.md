@@ -17,10 +17,6 @@ I've started three small prototypes around creator platforms. Each one has runna
 
 These are early local prototypes. The larger platform features are documented in each project's roadmap.
 
-## Learning repositories
-
-I also keep forks of projects covering data analysis, machine learning, Spark, Hadoop, and Docker. The original authors and licenses are preserved; these are separate from my own starter projects.
-
 ## Run the projects
 
 Requires Python 3.10 or newer. No external packages needed.
