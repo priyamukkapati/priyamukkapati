@@ -31,5 +31,4 @@ python3 -m unittest discover -s tests -v
 ```
 
 ## Connect
-
-[LinkedIn](https://www.linkedin.com/in/mukkapati11) · [GitHub](https://github.com/priyamukkapati)
+ [GitHub](https://github.com/priyamukkapati)
