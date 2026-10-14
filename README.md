@@ -3,7 +3,7 @@
 I'm interested in backend development, real-time applications, and recommendation systems.
 
 🎓 **Bachelor's:** Computer Science Engineering — Artificial Intelligence & Machine Learning  
-🎓 **Master's:** Information Technology & Management
+🎓 **Master's:** Information Technology 
 
 ## Projects
 
