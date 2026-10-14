@@ -11,9 +11,9 @@ Three runnable Java 17 projects, each with tests, a reproducible reliability dem
 
 | Project | Current implementation | Built with |
 | --- | --- | --- |
-| [TaskFlow](projects/java/TaskFlow) | Browser Kanban board, task/comment HTTP API, local snapshots, optimistic version checks | Java 17, JDK HTTP server, JavaScript, HTML/CSS |
-| [InventoryLedger](projects/java/InventoryLedger) | Inventory receipts and transfers, idempotent request IDs, journal replay, stock conservation | Java 17, file journal |
-| [NotifyQueue](projects/java/NotifyQueue) | Bounded event retention, duplicate detection, exponential retries, dead-letter handling, redrive | Java 17, PriorityQueue |
+| [TaskFlow](https://github.com/priyamukkapati/TaskFlow) | Browser Kanban board, task/comment HTTP API, local snapshots, optimistic version checks | Java 17, JDK HTTP server, JavaScript, HTML/CSS |
+| [InventoryLedger](https://github.com/priyamukkapati/InventoryLedger) | Inventory receipts and transfers, idempotent request IDs, journal replay, stock conservation | Java 17, file journal |
+| [NotifyQueue](https://github.com/priyamukkapati/NotifyQueue) | Bounded event retention, duplicate detection, exponential retries, dead-letter handling, redrive | Java 17, PriorityQueue |
 
 These are local projects. TaskFlow is one process; InventoryLedger is a CLI; NotifyQueue uses a simulated transport. None is deployed to AWS or implements a distributed service.
 
