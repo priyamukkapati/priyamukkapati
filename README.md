@@ -1,48 +1,25 @@
 # Hi, I'm Priya
 
-I'm interested in backend development, real-time applications, and recommendation systems.
+I’m interested in backend development and how applications handle data, retries, and concurrent updates. This profile brings together my Java and Python projects.
 
-🎓 **Bachelor's:** Computer Science Engineering — Artificial Intelligence & Machine Learning  
-🎓 **Master's:** Information Technology
+I studied Computer Science with an AI & ML specialization and completed a master’s in Information Technology at Webster University.
 
-## Java projects
+## Projects
 
-Three runnable Java 17 projects, each with tests, a reproducible reliability demo, and documented limitations.
+**[TaskFlow](https://github.com/priyamukkapati/TaskFlow)** — A task board you can run in your browser. The Java backend saves tasks and comments and checks versions when two updates compete for the same task.
 
-| Project | Current implementation | Built with |
-| --- | --- | --- |
-| [TaskFlow](https://github.com/priyamukkapati/TaskFlow) | Browser Kanban board, task/comment HTTP API, local snapshots, optimistic version checks | Java 17, JDK HTTP server, JavaScript, HTML/CSS |
-| [InventoryLedger](https://github.com/priyamukkapati/InventoryLedger) | Inventory receipts and transfers, idempotent request IDs, journal replay, stock conservation | Java 17, file journal |
-| [NotifyQueue](https://github.com/priyamukkapati/NotifyQueue) | Bounded event retention, duplicate detection, exponential retries, dead-letter handling, redrive | Java 17, PriorityQueue |
+**[InventoryLedger](https://github.com/priyamukkapati/InventoryLedger)** — A command-line inventory journal for receipts and bin transfers. It checks available stock, handles repeated requests, and reloads balances from a saved journal.
 
-These are local projects. TaskFlow is one process; InventoryLedger is a CLI; NotifyQueue uses a simulated transport. None is deployed to AWS or implements a distributed service.
+**[NotifyQueue](https://github.com/priyamukkapati/NotifyQueue)** — A Java exercise in scheduling retries. It uses a simulated delivery service to explore duplicate events, failed deliveries, and dead-letter handling.
 
-Clone each Java repository using its README instructions to run its tests and demos.
+**[StreamCommerce](https://github.com/priyamukkapati/StreamCommerce)** — A Python and SQLite purchase ledger focused on retry handling and revenue totals.
 
-## Python prototypes
+**[LiveStream](https://github.com/priyamukkapati/LiveStream)** — The chat-room side of a streaming application: room membership, moderation, and bounded message queues.
 
-| Project | What the current version does | Built with |
-| --- | --- | --- |
-| [StreamCommerce](https://github.com/priyamukkapati/StreamCommerce) | Records subscriptions and gifts, handles purchase retries, and totals creator revenue | Python, SQLite |
-| [LiveStream](https://github.com/priyamukkapati/LiveStream) | Models chat rooms with message delivery, moderation, and bounded queues | Python, asyncio |
-| [CreatorPulse](https://github.com/priyamukkapati/CreatorPulse) | Ranks creators by interests and queues notification events without duplicates | Python, heapq |
+**[CreatorPulse](https://github.com/priyamukkapati/CreatorPulse)** — A small recommendation exercise that ranks creators by shared interests and queues notification events.
 
-These are early local prototypes. The larger platform features are documented in each project's roadmap.
+Each repository has instructions and tests. These are local projects at different stages, with the current scope and next steps explained in their READMEs.
 
-## Run the Python prototypes
+## What I’d like to explore next
 
-```sh
-git clone https://github.com/priyamukkapati/priyamukkapati.git
-cd priyamukkapati
-# Python: requires Python 3.10+, no external packages
-python3 projects/streamcommerce/app.py
-python3 projects/livestream/app.py
-python3 projects/creatorpulse/app.py
-python3 -m unittest discover -s tests -v
-```
-
-For a hiring-oriented comparison and next proofs for the Python repositories, see [the backend project review](docs/backend-project-review.md).
-
-## Connect
-
-[GitHub](https://github.com/priyamukkapati)
+Database-backed APIs, authentication, and testing behavior across independent clients. TaskFlow is the most complete application here; the others focus on smaller backend problems.
