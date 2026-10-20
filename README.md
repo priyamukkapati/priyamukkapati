@@ -4,6 +4,10 @@ I’m interested in backend development and how applications handle data, retrie
 
 I studied Computer Science with an AI & ML specialization and completed a master’s in Information Technology at Webster University.
 
+## Live demo
+
+**[Try TaskFlow →](https://priya-taskflow-demo.abloomkoi260.chatgpt.site)** — Create tasks, move them across a Kanban board, add comments, and search. The hosted browser edition saves changes locally on your device; the original Java backend remains available in the repository.
+
 ## Projects
 
 **[TaskFlow](https://github.com/priyamukkapati/TaskFlow)** — A task board you can run in your browser. The Java backend saves tasks and comments and checks versions when two updates compete for the same task.
@@ -18,7 +22,7 @@ I studied Computer Science with an AI & ML specialization and completed a master
 
 **[CreatorPulse](https://github.com/priyamukkapati/CreatorPulse)** — A small recommendation exercise that ranks creators by shared interests and queues notification events.
 
-Each repository has instructions and tests. These are local projects at different stages, with the current scope and next steps explained in their READMEs.
+Each repository has instructions and tests. These projects are at different stages, with the current scope and next steps explained in their READMEs.
 
 ## What I’d like to explore next
 
